@@ -11,10 +11,20 @@ nav {
   color: white;
 }
 
+.logo{
+  font-weight: 500;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex: 1;
+}
+
 .nav-links{
+  text-decoration: none;
   width: 40%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  flex: 2;
 }
